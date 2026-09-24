@@ -1,0 +1,36 @@
+.bar {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 16px clamp(16px, 4vw, 36px) 8px;
+  background: transparent;
+  transition: opacity 0.55s ease, visibility 0.55s ease;
+}
+
+.bar[data-hidden="true"] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.brand {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: auto;
+  height: clamp(36px, 5.5vw, 48px);
+  object-fit: contain;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    transition: none;
+  }
+}
