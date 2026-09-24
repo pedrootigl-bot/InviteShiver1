@@ -11,7 +11,7 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: "Shiver — Convite",
-  description: "Convide amigos, avance na rede e desbloqueie recompensas.",
+  description: "Você acaba de desbloquear o acesso exclusivo.",
 };
 
 export default function RootLayout({

@@ -11,7 +11,7 @@ Landing de convite SHIVER: hero + **carta/envelope 2D** → transição curta �
 Fonte: `lib/inviteCopy.ts`
 
 - Brand: SHIVER  
-- Título: Convide sua rede e desbloqueie até R$500 (inline, accent em “até R$500”)
+- Título: Você acaba de desbloquear o acesso exclusivo (duas linhas; accent em “o acesso exclusivo”)
 - Descrição: Quanto mais sua rede cresce, mais perto você fica de desbloquear até R$500 em recompensas.
 - Hint: Abra a carta e descubra o convite
 - CTA: Quero desbloquear agora → sharkprime.app/invite#conquistas

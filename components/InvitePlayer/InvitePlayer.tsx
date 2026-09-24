@@ -44,9 +44,9 @@ export function InvitePlayer({
         src={videoSrc}
         poster={poster}
         playsInline
-        loop
         preload="auto"
         controls={showControls}
+        onEnded={onClose}
         aria-label="Vídeo do convite"
       />
 

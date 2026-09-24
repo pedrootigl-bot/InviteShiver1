@@ -16,12 +16,12 @@ export function Navbar({ hidden = false }: NavbarProps) {
     >
       <a
         className={styles.brand}
-        href="/"
+        href="./"
         aria-label={`${inviteCopy.brand} Broker`}
       >
         <Image
           className={styles.logo}
-          src="/brand/shiver-logo.png"
+          src="./brand/shiver-logo.png"
           alt="Shiver Broker"
           width={200}
           height={48}
